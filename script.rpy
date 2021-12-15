@@ -39,15 +39,15 @@ label scene1:  #################################################################
     
     s "Hola."
     
-    s "parece que querias terminarlo todo.."
+    s "Parece que querias terminarlo todo.."
     
     scene sakuyabed6 with Dissolve(1)
     
     s "Good thing I came in at the last second."
     
-    s "me alegra que puedas estar conmigo hoy."
+    s "Me alegra que puedas estar conmigo hoy."
     
-    show screen choice2("por que me salvaste?", "I Wasn't Supposed To Make It...", "scene1choice1", "scene1choice1", 1103, 407, 1049, 524)
+    show screen choice2("Por que me salvaste?", "I Wasn't Supposed To Make It...", "scene1choice1", "scene1choice1", 1103, 407, 1049, 524)
     
     pause
     pause
@@ -73,7 +73,7 @@ label scene1choice1:
     
     pause 0.5
     
-    s "But..."
+    s "Pero..."
     
     s "Someone who's been watching you for a small bit sensed that, deep down, you didn't actually want it to end."
     
@@ -106,15 +106,15 @@ label scene1choice2:
     
     scene sakuyabed3 with Dissolve(1)
     
-    s "I only want one thing."
+    s "Yo solo quiero una cosa."
     
-    s "For you to get better."
+    s "Que te mejores."
     
     scene sakuyabed1 with Dissolve(1)
     
-    s "More specifically, I want you to get some sleep. It looks like you hardly got any, I can tell just from looking at your eyes."
+    s "Mas específicamente, Quiero que duermas un poco. Se ve que no lo sueles hacer, Lo puedo ver con tan solo mirar a tus ojos ."
     
-    show screen choice1("I Can't Sleep", "scene1choice3", 366, 471)
+    show screen choice1("No puedo dormir", "scene1choice3", 366, 471)
     
     pause
     pause
@@ -122,7 +122,7 @@ label scene1choice2:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:  # Day1choice2
-        "I Can't Sleep":  #x="244"  y="314"
+        "No puedo dormir":  #x="244"  y="314"
             pass
     
 label scene1choice3:
@@ -135,17 +135,17 @@ label scene1choice3:
     
     pause 0.5
     
-    s "I know how hard it is to get some sleep."
+    s "Se lo dificil que es tener sueño."
 
     scene sakuyabed3 with dissolve
     
-    s "I just want you to remember this."
+    s "Solo quiero que recuerdes esto."
     
     scene sakuyabed1 with dissolve
     
-    s "What you did in the past, doesn't matter right now."
+    s "Lo que hiciste en el pasado, no importa ahora."
     
-    s "Whatever you may think is going to happen in the future, doesn't matter right now either."
+    s "Lo que sea que creas que va a pasar en el futuro, Tampoco importa aqui."
     
     scene sakuyabed3 with dissolve
     
@@ -161,7 +161,7 @@ label scene1choice3:
     
     scene sakuyabed6 with dissolve
     
-    s "I myself am quite tired too, it was fun work but I could really use some sleep now!"
+    s "Yo de hecho tambien estoy cansada, !Fue un trabajo divertido pero realmente deberia dormir ahora "
     
     scene sakuyabed3 with dissolve
     
