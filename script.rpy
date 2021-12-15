@@ -43,7 +43,7 @@ label scene1:  #################################################################
     
     scene sakuyabed6 with Dissolve(1)
     
-    s "Good thing I came in at the last second."
+    s "Menos mal que vine en el ultimo momento."
     
     s "Me alegra que puedas estar conmigo hoy."
     
@@ -69,7 +69,7 @@ label scene1choice1:
     
     s "Well, I never meant to intrude."
     
-    s "Trust me, I would have left you alone and never interfered."
+    s "Creeme , Te habria dejado solo y nunca habria interferido."
     
     pause 0.5
     
@@ -78,7 +78,7 @@ label scene1choice1:
     s "Someone who's been watching you for a small bit sensed that, deep down, you didn't actually want it to end."
     
     pause 0.5
-    
+    ## asd
     s "It was faint, but your soul was crying for help, begging for another chance at life."
     
     scene sakuyabed5 with Dissolve(1)
@@ -141,7 +141,7 @@ label scene1choice3:
     
     s "Solo quiero que recuerdes esto."
     
-    scene sakuyabed1 with dissolve
+    scene sakuyabed1 with dissolvepp
     
     s "Lo que hiciste en el pasado, no importa ahora."
     
@@ -149,14 +149,14 @@ label scene1choice3:
     
     scene sakuyabed3 with dissolve
     
-    s "Nothing else matters right now."
+    s "Nada importa ahora mismo ."
     
     scene sakuyabed6 with dissolve
     
-    s "The only thing that matters right now, is you closing your eyes, and getting a proper amount of sleep in."
+    s "La unica cosa que importa ahora mismo, Es cerrar tus ojos, and getting a proper amount of sleep in."
     
     scene sakuyabed3 with dissolve
-    
+    ## asd
     s "That's it, nothing else matters except for you sleeping."
     
     scene sakuyabed6 with dissolve
@@ -165,11 +165,11 @@ label scene1choice3:
     
     scene sakuyabed3 with dissolve
     
-    s "So I'll rest right here with you."
+    s "Asi que descansare aqui contigo."
     
     scene sakuyabed1 with dissolve
     
-    s "You may notice the more you try to sleep, the harder it gets to actually get some shut eye."
+    s "seduramente te des cuenta de que, cuanto mas intentas dormir, mas te cuesta cerrar los ojos."
     
     s "One shouldn't \"try\" to sleep, it should just fall upon them as natural as walking."
     
