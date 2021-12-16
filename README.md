@@ -1,6 +1,6 @@
 parche al español de la novela visual Save Me, Sakuya-san!
 
-solo es el juego base el dlc sera traducido en el futuro 
+solo es el juego base, el dlc sera traducido en el futuro 
 
 si tienes el dlc instalado desactivalo y desinstalalo antes de instalar el parche
 
