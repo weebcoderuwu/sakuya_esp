@@ -237,7 +237,7 @@ label scene1choice4a:
     
     scene sakuyacooking1 with Dissolve(1)
             
-    s "I'm just glad I could've helped, getting enough sleep is paramount to your daily activities!"
+    s  "getting enough sleep is paramount to your daily activities!"
     
     jump scene1choice4
     
