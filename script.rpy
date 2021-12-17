@@ -89,7 +89,7 @@ label scene1choice1:
     
     s "Regardless, I'm here for you."
     
-    show screen choice1("What Do You Want From Me?", "scene1choice2", 1091, 152)
+    show screen choice1("Que quieres de mi?", "scene1choice2", 1091, 152)
     
     pause
     pause
@@ -97,7 +97,7 @@ label scene1choice1:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:  # Day1choice2
-        "What Do You Want From Me?":  #x="727"  y="101"
+        "Que quieres de mi?":  #x="727"  y="101"
             pass
 
 label scene1choice2:
@@ -153,7 +153,7 @@ label scene1choice3:
     
     scene sakuyabed6 with dissolve
     
-    s "La unica cosa que importa ahora mismo, Es cerrar tus ojos, and getting a proper amount of sleep in."
+    s "La unica cosa que importa ahora mismo, Es cerrar tus ojos, y dormir lo suficiente."
     
     scene sakuyabed3 with dissolve
     ## asd
@@ -193,7 +193,7 @@ label scene1choice3:
     stop music fadeout 1  ## Additional
     $ save_name = "Day 2 - Cooking With Sakuya"
     
-    s "Come heeeere~ I need you to help me with something!"
+    s "ven aquiii~ necesito que me ayudes con algo!"
     
     play music cookingsong
     
@@ -201,13 +201,13 @@ label scene1choice3:
     
     s "Hey, there you are!"
     
-    s "You seem rather well rested."
+    s "Parece que has descansado vien."
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s "Just from looking at your eyes, anyways."
+    s "Solo con mirar tus ojos."
     
-    show screen choice2("It's All Thanks To You.", "I Really Needed It.", "scene1choice4a", "scene1choice4b", 1382, 203, 74, 224)
+    show screen choice2("Todo gracias a ti.", "Realmente lo necesitaba.", "scene1choice4a", "scene1choice4b", 1382, 203, 74, 224)
     
     pause
     pause
@@ -215,21 +215,21 @@ label scene1choice3:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "It's All Thanks To You.":  # x="921"  y="135"
+        "Todo gracias a tí.":  # x="921"  y="135"
             
             scene sakuyacooking1 with Dissolve(1)
             
-            s "I'm just glad I could've helped, getting enough sleep is paramount to your daily activities!"
+            s "Me alegro de haber podido ayudar, dormir lo sufuciente es esencial para el dia a dia!"
         
-        "I Really Needed It.":  # x="49"  y="149"
+        "Realmente lo necesitaba.":  # x="49"  y="149"
         
             scene sakuyacooking1 with Dissolve(1)
             
-            s "Well I bet you did! You looked like you were on the verge of death."
+            s "Bueno, apuesto a que lo hiciste!, Parecías estar al borde de la muerte."
             
             scene sakuyacooking4 with Dissolve(1)
             
-            s "Well, that's probably not an exaggeration anyways."
+            s "Bueno, eso probablemente no sea una exajeracion."
 
 label scene1choice4a:
     
