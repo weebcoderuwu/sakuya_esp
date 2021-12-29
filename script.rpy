@@ -169,25 +169,25 @@ label scene1choice3:
     
     scene sakuyabed1 with dissolve
     
-    s "seduramente te des cuenta de que, cuanto mas intentas dormir, mas te cuesta cerrar los ojos."
+    s "seuramente te des cuenta de que, cuanto mas intentas dormir, mas te cuesta cerrar los ojos."
     
-    s "One shouldn't \"try\" to sleep, it should just fall upon them as natural as walking."
+    s "Uno no deveria \"intentar\" dormir, deveria ser tan natural como caminar."
     
     s "Once you let go and stop thinking, I'm sure you'll find that it's much easier to get some shut eye."
     
     scene sakuyabed3 with dissolve
     
-    s "That said, take all the time you need."
+    s "con eso dicho, tomate todo el tiempo que necesites."
     
-    s "You can even just look at me if it helps you sleep."
+    s "Puedes solo mirarme si eso te ayuda a dormir."
     
     scene sakuyabed6 with dissolve
     
-    s "Whenever you're ready."
+    s "Siempre que estés listo."
     
     scene sakuyabed5 with dissolve
     
-    s "I'm right beside you."
+    s "Estoy a tu lado."
     
     scene black with Dissolve(1)
     stop music fadeout 1  ## Additional
@@ -237,7 +237,7 @@ label scene1choice4a:
     
     scene sakuyacooking1 with Dissolve(1)
             
-    s  "getting enough sleep is paramount to your daily activities!"
+    s  "dormir lo suficiente es fundamental para el dia a dia!"
     
     jump scene1choice4
     
@@ -269,7 +269,7 @@ label scene1choice4:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "What Are We Gonna Do?":  #x="902"  y="126"
+        "Que vamos a hacer?":  #x="902"  y="126"
             pass
             
 label scene1choice5:
@@ -278,17 +278,17 @@ label scene1choice5:
     
     scene sakuyacooking1 with Dissolve(1)
     
-    s "I'm gonna have you make some food!"
+    s "Voy a hacer que hagas algo de comida!"
     
     scene sakuyacooking2 with Dissolve(1)
     
-    s "More specifically..."
+    s "Mas especificamente..."
     
     scene sakuyacooking1 with Dissolve(1)
     
-    s "You're gonna make a fruit salad!"
+    s "Vas a hacer ensalada de fruta!"
     
-    show screen choice2("I've Never Done This Before.", "I Like Fruits!", "scene1choice6a", "scene1choice6b", 1316, 161, 131, 176)
+    show screen choice2("Nunca he hecho esto antes.", "Me gusta la fruta!", "scene1choice6a", "scene1choice6b", 1316, 161, 131, 176)
     
     pause
     pause
@@ -296,29 +296,29 @@ label scene1choice5:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I've Never Done This Before.":  # x="877"  y="107"
+        "Nunca he hecho esto antes.":  # x="877"  y="107"
             
             scene sakuyacooking4 with Dissolve(1)
             
-            s "Hmm, Is that so?"  # So Nanoka??
+            s "Hmm, ¿es así??"  # So Nanoka??
             
             scene sakuyacooking1 with Dissolve(1)
             
-            s "Well, don't worry about it!"
+            s "Bueno, no te preocupes por eso!"
             
             scene sakuyacooking4 with Dissolve(1)
             
-            s "My knives are always razor sharp, so they'll do most of the work for you."
+            s "Mis cuchillos siempre están afilados como una navaja, por lo que harán la mayor parte del trabajo por ti."
             
-        "I Like Fruits!":  # x="87"  y="117"
+        "Me gusta la fruta!":  # x="87"  y="117"
             
-            s "That's great to hear!"
+            s "Es bueno oir eso!"
             
-            s "I like fruits too!"
+            s "Tambien me gusta la fruta!"
             
             scene sakuyacooking4 with Dissolve(1)
             
-            s "You can even make tea with fruit."
+            s "Puedes hasta hacer te con fruta."
             
 label scene1choice6a:
     
@@ -326,15 +326,16 @@ label scene1choice6a:
     
     scene sakuyacooking4 with Dissolve(1)
             
-    s "Hmm, Is that so?"  # So Nanoka??
+    s "Hmm, es así?"  # So Nanoka??
     
     scene sakuyacooking1 with Dissolve(1)
     
-    s "Well, don't worry about it!"
+    s "Bueno, no te preocupes por eso!"
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s "My knives are always razor sharp, so they'll do most of the work for you."
+    s 
+    "Mis cuchillos siempre están afilados como una navaja, por lo que harán la mayor parte del trabajo por ti."
     
     jump scene1choice6
     
@@ -342,35 +343,35 @@ label scene1choice6b:
     
     hide screen choice2 with Dissolve(0.2)
     
-    s "That's great to hear!"
+    s "Eso es bueno oirlo!"
             
-    s "I like fruits too!"
+    s "Tambien me gusta la fruta!"
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s "You can even make tea with fruit."
+    s "Puedes hasta hacer te con fruta."
     
 label scene1choice6:
             
     scene sakuyacooking1 with Dissolve(1)
             
-    s "Well, at any rate, let's get started."
+    s "Bueno, en cualquier caso, comencemos."
             
-    s "Take this knife."
+    s "Toma este cuchillo."
             
-    s "I'm gonna throw these fruits in the air, and you do your best to chop them."
+    s "Voy a tirar estas frutas al aire y tú haces todo lo posible para cortarlas."
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s "Don't worry if you don't think you can cut the fruit in time."
+    s "No te preocupes si no crees que puedas cortar la fruta a tiempo."
     
     scene sakuyacooking3 with Dissolve(1)
     
-    s "Let's just say I'll give you all the time you need."
-    
+    s "Digamos que te daré todo el tiempo que necesites."
+    #*para el tiempo*
     scene sakuyacooking1 with dissolve
     
-    s "Here we go! Cut this fruit up!"
+    s "¡Aquí vamos! Corta esta fruta!"
     
     # Fruit button screen
     # Note:
@@ -394,11 +395,11 @@ label scene1banana: # banana_cut
     
     scene sakuyacooking2 with dissolve
     
-    s "Great job!"
+    s "Buen trabajo!"
     
     scene sakuyacooking3 with dissolve
     
-    s "Here's the next one!"
+    s "Aqui viene la siguiente!"
     
     show screen fruit_screen("orange.png", "scene1orange", 470, 126)
     
@@ -415,7 +416,7 @@ label scene1orange: # orange_cut
     
     scene sakuyacooking1 with dissolve
     
-    s "Last one coming right up!"
+    s "Aqui viene la ultima!"
     
     show screen fruit_screen("apple.png", "scene1apple", 530, 165)
     
@@ -432,35 +433,35 @@ label scene1apple: # apple_cut
     
     scene sakuyacooking3 with dissolve
     
-    s "Wonderful!"
+    s "Maravilloso!"
             
     scene sakuyacooking1 with dissolve
     
-    s "Now mix it all up in that bowl and hand it to me!"
+    s "Ahora mézclalo todo en ese cuenco y pásamelo!"
     
     scene sakuyasalad1 with dissolve
     
-    s "Let's see how this tastes!"
+    s "Vamos a ver que tas sabe esto!"
     
     scene sakuyasalad2 with dissolve
     
-    s "Delicious!"
+    s "Delicioso!"
     
-    s "It tastes even better especially because you made it!"
+    s "Sabe aún mejor, especialmente porque lo hiciste tú!"
     
     scene sakuyacooking1 with dissolve
     
-    s "Well, I hope that whole process was enjoyable for you."
+    s "Bueno, espero que todo el proceso haya sido agradable para ti.."
     
-    s "But..."
+    s "Pero..."
     
     scene sakuyacooking4 with dissolve
     
-    s "There was also another point to this."
+    s "También había otro punto en esto.."
     
     scene sakuyacooking3 with dissolve
     
-    s "You may have had some troubles in your life."
+    s "Es posible que tengas algunos problemas en ti vida."
     
     s "The kind of things that just keep running through your head, no matter how hard you try."
     
