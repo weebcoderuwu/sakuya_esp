@@ -199,7 +199,7 @@ label scene1choice3:
     
     scene sakuyacooking1 with Dissolve(1)
     
-    s "Hey, there you are!"
+    s "Hey, ahi estas!"
     
     s "Parece que has descansado vien."
     
