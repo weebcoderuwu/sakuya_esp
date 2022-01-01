@@ -47,7 +47,7 @@ label scene1:  #################################################################
     
     s "Me alegra que puedas estar conmigo hoy."
     
-    show screen choice2("Por que me salvaste?", "I Wasn't Supposed To Make It...", "scene1choice1", "scene1choice1", 1103, 407, 1049, 524)
+    show screen choice2("Por que me salvaste?", "No se supone que lo fuera a hacer", "scene1choice1", "scene1choice1", 1103, 407, 1049, 524)
     
     pause
     pause
@@ -58,7 +58,7 @@ label scene1:  #################################################################
         "por que me salvaste?":  #x="735"  y="271"
             pass
         
-        "I Wasn't Supposed To Make It":  #x="699"  y="349"
+        "No se supone que lo fuera a hacer":  #x="699"  y="349"
             pass
             
 label scene1choice1:
@@ -463,7 +463,7 @@ label scene1apple: # apple_cut
     
     s "Es posible que tengas algunos problemas en ti vida."
     
-    s "The kind of things that just keep running through your head, no matter how hard you try."
+    s "Este tipo de cosas que van pasando por tu mente, no matter how hard you try."
     
     s "\"What If\" thoughts, regretting past choices, anxious about the future..."
     
