@@ -702,13 +702,13 @@ label scene1choice10:
     
     s "Ya veo..."
     
-    s "Just a few more questions."
+    s "Solo unas pocas preguntas más."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "Why did you do it?"
+    s "¿Por qué lo hiciste?"
     
-    show screen choice3("I Was Told To.", "I Had No Other Choice.", "I Didn't Belong Anywhere Else.", "scene1choice11", "scene1choice11", "scene1choice11", 1386, 123, 1325, 248, 1290, 353)
+    show screen choice3("Me lo dijeron.", "No tenía otra opción.", "No pertenecía a ningún otro lugar.", "scene1choice11", "scene1choice11", "scene1choice11", 1386, 123, 1325, 248, 1290, 353)
     
     pause
     pause
@@ -716,13 +716,13 @@ label scene1choice10:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I Was Told To.":  # x="924"  y="82"
+        "Me lo dijeron.":  # x="924"  y="82"
             pass
             
-        "I Had No Other Choice.":  # x="883"  y="165"
+        "No tenia otra opcion.":  # x="883"  y="165"
             pass
             
-        "I Didn't Belong Anywhere Else.":  # x="860"  y="235"
+        "No pertenecía a ningún otro lugar.":  # x="860"  y="235"
             pass
 
 label scene1choice11:
@@ -731,13 +731,13 @@ label scene1choice11:
 
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "You're doing great so far! We're almost there!"
+    s "¡Lo estás haciendo muy bien hasta ahora! ¡Casi estámos allí!"
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "Who do you blame for it all?"
+    s "¿A quién culpas de todo?"
     
-    show screen choice3("Myself", "The World", "No One", "scene1choice12", "scene1choice12", "scene1choice12", 1452, 123, 1412, 251, 1428, 356)
+    show screen choice3("a mi mismo", "a el mundo", "a nadie", "scene1choice12", "scene1choice12", "scene1choice12", 1452, 123, 1412, 251, 1428, 356)
     
     pause
     pause
@@ -745,13 +745,13 @@ label scene1choice11:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Myself":  # x="968"  y="82"
+        "a mi mismo":  # x="968"  y="82"
             pass
             
-        "The World":  # x="941"  y="167"
+        "a el mundo":  # x="941"  y="167"
             pass
             
-        "No One":  # x="952"  y="237"
+        "a nadie":  # x="952"  y="237"
             pass
             
 label scene1choice12:
@@ -760,13 +760,13 @@ label scene1choice12:
             
     scene sakuyaquiz3 with Dissolve(1)
     
-    s "Very good! Last question!"
+    s "¡Muy bien! ¡Última pregunta!"
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "Where would you like to be buried?"
+    s "¿Dónde le gustaría ser enterrado?"
     
-    show screen choice3("Under A Tree", "Under A Small Coffin In A Mansion.", "Let Me Rot Into The Ground", "scene1choice13", "scene1choice13", "scene1choice13", 1404, 123, 1247, 249, 1320, 357)
+    show screen choice3("bajo un arbol", "Debajo De Un Pequeño Ataúd En Una Mansión.", "Déjame pudrirme en el suelo", "scene1choice13", "scene1choice13", "scene1choice13", 1404, 123, 1247, 249, 1320, 357)
     
     pause
     pause
@@ -774,13 +774,13 @@ label scene1choice12:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Under A Tree":  # x="936"  y="82"
+        "bajo un arbol":  # x="936"  y="82"
             pass
             
-        "Under A Small Coffin In A Mansion.":  # x="831"  y="166"
+        "Debajo De Un Pequeño Ataúd En Una Mansión.":  # x="831"  y="166"
             pass
             
-        "Let Me Rot Into The Ground":  # x="880"  y="238"
+        "Déjame pudrirme en el suelo":  # x="880"  y="238"
             pass
 
 label scene1choice13:
@@ -789,35 +789,35 @@ label scene1choice13:
 
     scene sakuyaquiz4 with Dissolve(1)
     
-    s "Well, thank you!"
+    s "¡Bueno, gracias!"
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "I have enough information now."
+    s "Ahora tengo suficiente información."
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Here's what I think."
+    s "Esto es lo que pienso."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "You're a naturally anxious person."
+    s "Eres una persona ansiosa por naturaleza."
     
-    s "You have your hopes and aspirations, but you need a good push or two in the right direction to achieve them."
+    s "Tiene sus esperanzas y aspiraciones, pero necesita un buen empujón o dos en la dirección correcta para lograrlas."
     
-    s "You have a lot of sadness in your heart. You need something or someone to help you stop letting your sorrows build up in you."
+    s "Tienes mucha tristeza en tu corazón. Necesitas algo o alguien que te ayude a dejar de dejar que tus penas se acumulen en ti."
     
-    s "You often burn a lot of bridges, but only out of necessity."
+    s "A menudo se queman muchos puentes, pero solo por necesidad."
     
-    s "You need to learn to forgive yourself, you're too harsh on yourself sometimes."
+    s "Necesitas aprender a perdonarte, a veces eres demasiado duro contigo mismo."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "What do you think?"
+    s "¿Qué piensas?"
     
-    s "Pretty accurate, right?"
+    s "Bastante preciso, ¿verdad?"
     
-    show screen choice2("It's Accurate.", "Not Exactly...", "scene1choice14", "scene1choice14", 1401, 177, 149, 170)
+    show screen choice2("Es preciso.", "No exactamente...", "scene1choice14", "scene1choice14", 1401, 177, 149, 170)
     
     pause
     pause
@@ -825,10 +825,10 @@ label scene1choice13:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "It's Accurate.":  # x="934"  y="118"
+        "Es preciso.":  # x="934"  y="118"
             pass
         
-        "Not Exactly...":  # x="99"  y="113"
+        "No exactamente...":  # x="99"  y="113"
             pass
     
 label scene1choice14:
@@ -837,23 +837,23 @@ label scene1choice14:
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "Well, funny you should say that."
+    s "Bueno, es gracioso que digas eso."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "The truth is, I made it all up!"
+    s "La verdad es que lo inventé todo."
     
-    s "I was going to give you that response no matter what option you picked."
-    
+    s "Iba a darte esa respuesta sin importar la opción que elijas."
+    ## esta scripteado es normal xdd
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "I think to understand who you really are, I'd have to hang out with you more, and get to know you better."
+    s "Creo que para entender quién eres realmente, tendría que pasar más tiempo contigo y llegar a conocerte mejor."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "Which I'm more than happy to oblige by."
+    s "Lo cual estoy más que feliz de complacer."
     
-    show screen choice2("I'm Confused...", "What Was The Point?", "scene1choice15", "scene1choice15", 1386, 186, 108, 179)
+    show screen choice2("Estoy confuso...", "¿Cuál era el punto?", "scene1choice15", "scene1choice15", 1386, 186, 108, 179)
     
     pause
     pause
@@ -861,10 +861,10 @@ label scene1choice14:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I'm Confused...":  # x="924"  y="124"
+        "Estoy confuso...":  # x="924"  y="124"
             pass
             
-        "What Was The Point?":  # x="72"  y="119"
+        "¿Cuál era el punto?":  # x="72"  y="119"
             pass
     
 label scene1choice15:
@@ -873,23 +873,23 @@ label scene1choice15:
     
     scene sakuyaquiz4 with Dissolve(1)
     
-    s "Well, to be honest, I just wanted you to rest on my lap!"
+    s "Bueno, para ser honesta, ¡solo quería que descansaras en mi regazo!"
     
     s "Ehehehe!"
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "That aside, I did this to prove something to you."
+    s "Aparte de eso, hice esto para probarte algo."
     
-    s "That it doesn't really matter what I or other people perceive you as."
+    s "Que realmente no importa lo que yo u otras personas te perciban como."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "You're always free to shape your own fate, your own destiny."
+    s "Siempre eres libre de moldear tu propio destino."
     
-    s "Only those who accept you for who you are and what you want to do matter."
+    s "Solo importan aquellos que te aceptan por lo que eres y lo que quieres hacer."
     
-    show screen choice2("I Don't Like Who I Am.", "No One Accepts Me.", "scene1choice16", "scene1choice16", 117, 176, 1349, 194)
+    show screen choice2("No me gusta quien soy.", "Nadie me acepta.", "scene1choice16", "scene1choice16", 117, 176, 1349, 194)
     
     pause
     pause
@@ -897,10 +897,10 @@ label scene1choice15:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I Don't Like Who I Am.":  # x="78"  y="117"
+        "No me gusta quien soy.":  # x="78"  y="117"
             pass
             
-        "No One Accepts Me.":  # x="899"  y="129"
+        "Nadie me acepta.":  # x="899"  y="129"
             pass
     
 label scene1choice16:
@@ -909,103 +909,103 @@ label scene1choice16:
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Well, believe it or not, I can relate."
+    s "Bueno, lo creas o no, me siento identificado."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "I wasn't always like the person you see before you."
+    s "No siempre fui como la persona que ves ante ti."
     
-    s "I felt lonely and isolated from other people."
+    s "Me sentía sola y aislada de los demás."
     
-    s "Even when I was working in this mansion, I was still rather cruel to humans, and even to those around me."
+    s "Incluso cuando trabajaba en esta mansión, seguía siendo bastante cruel con los humanos, e incluso con los que me rodeaban."
     
-    s "I thought, \"As long as I have a bed to sleep on, I don't need anything else.\""
+    s "Pensé \"Mientras tenga una cama para dormir, no necesito nada más\"."
                                                               
-    s "At the end of the day, I thought of only myself."
+    s "Al final del día, sólo pensaba en mí."
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "But, as I'm sure you know, I was out solving an incident."
+    s "Pero, como estoy seguro de que sabes, estaba resolviendo un incidente."
     
-    s "There was a huge and unusual amount of Red Spider Lilies growing everywhere."
+    s "Había una enorme e inusual cantidad de lirios araña rojos creciendo por todas partes."
     
-    s "Well, long story short..."
+    s "Bueno, resumiendo la historia..."
     
-    s "I realized, after that incident, that the things you and I do, matter."
+    s "Me di cuenta, después de ese incidente, que las cosas que hacemos, importan."
     
-    s "Even the smallest, most minor actions I do, matter as well."
+    s "Incluso las acciones más pequeñas, más insignificantes que hago, también importan."
     
-    s "I have an impact on people, big or small, and that will eventually come around to have an impact on me, whether I realize it or not."
+    s "Tengo un impacto en la gente, grande o pequeño, y eso acabará teniendo un impacto en mí, me dé cuenta o no."
     
     scene sakuyaquiz3 with Dissolve(1)
     
-    s "So, from then on I wanted to be warm and kind to those around me."
+    s "Así que, a partir de entonces, quise ser cálido y amable con los que me rodeaban."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "Well, for the most part."
+    s "Bueno, la mayor parte."
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Some people really need a good \"scolding\" before you can put some sense into them."
+    s "Algunas personas realmente necesitan un buen \"regañando\" antes de que puedas poner algo de sentido común en ellos."
     
-    s "Be nice until it's time to not be nice"
+    s "Sé amable hasta que llegue el momento de no serlo"
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "I think that's a fine motto to live by."
+    s "Creo que es un buen lema para vivir."
     
-    s "I just want you to understand this."
+    s "Sólo quiero que entiendas esto."
     
     scene sakuyaquiz3 with Dissolve(1)
     
-    s "Just like how it was never too late for me to change my ways, it's never too late to change yours either!"
+    s "Al igual que nunca fue demasiado tarde para mí para cambiar mis costumbres, ¡tampoco es demasiado tarde para cambiar las tuyas!"
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "That is, for the stuff you want to change."
+    s "Es decir, para las cosas que quieres cambiar."
     
-    s "There's always going to be parts of us that we wouldn't change for the world."
+    s "Siempre habrá partes de nosotros que no cambiaríamos por nada de el mundo."
     
     scene sakuyaquiz3 with Dissolve(1)
     
-    s "And that's just fine!"
+    s "¡Y eso está muy bien!"
     
-    s "We just need to surround ourselves with those who love us for who we are."
+    s "Sólo tenemos que rodearnos de aquellos que nos quieren por lo que somos."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "But of course, if you have no one, that's fine too."
+    s "Pero, por supuesto, si no tienes a nadie, también está bien."
     
-    s "Being able to walk your own path by yourself is quite a virtue."
+    s "Ser capaz de recorrer tu propio camino por ti mismo es toda una virtud."
     
-    s "And along the way, you may find what or who you're looking for all along."
+    s "Y en el camino, puede que encuentres lo que buscas o a quien buscas desde el principio."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "Just for the record, I accept you for who you are, and for who you want to be."
+    s "Que conste que te acepto por lo que eres y por lo que quieres ser."
     
     scene sakuyaquiz4 with Dissolve(1)
     
-    s "I'm here for you, always."
+    s "Estoy aquí para ti, siempre."
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Well, that's all I have to say."
+    s "Bueno, eso es todo lo que tengo que decir."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "You can keep laying down in my lap for as long as you want."
+    s "Puedes seguir acostado en mi regazo todo el tiempo que quieras."
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Whenever you're ready, we can move on to the next day."
+    s "Cuando estés preparado, podemos pasar al día siguiente."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "But, take as much time as you need."
+    s "Pero, tómate el tiempo que necesites."
     
-    s "I've got you."
+    s "Yo te tengo."
     
     scene sakuyaquiz4 with Dissolve(1)
     
@@ -1026,17 +1026,17 @@ label scene2:  #################################################################
     
     play music fishing_song
     
-    s "Let's do something different today!"
+    s "¡Hagamos algo diferente hoy!"
     
-    s "This mansion has quite a large lake surrounding it."
+    s "Esta mansión tiene un gran lago que la rodea."
     
-    s "And who knows what kind of creatures lurk in it!"
+    s "¡Y quién sabe qué clase de criaturas acechan en él!"
     
     scene sakuyafishing2 with dissolve
     
-    s "It's the perfect time to go fishing, I'd say."
+    s "Es el momento perfecto para ir a pescar, diría yo."
     
-    show screen choice1("Do You Need Some Help?", "scene2choice1", 945, 257)
+    show screen choice1("Necesitas algo de ayuda!", "scene2choice1", 945, 257)
     
     pause
     pause
@@ -1044,7 +1044,7 @@ label scene2:  #################################################################
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Do You Need Some Help?":  # x="630"  y="171"
+        "Necesitas algo de ayuda!":  # x="630"  y="171"
             pass
 
 label scene2choice1:
@@ -1053,51 +1053,51 @@ label scene2choice1:
 
     scene sakuyafishing1 with dissolve
     
-    s "Of course!"
+    s "Por supuesto!."
     
     scene sakuyafishing2 with dissolve
     
-    s "I wouldn't bring you here just to watch."
+    s "No te traería aquí sólo para mirar."
     
-    s "Fishing is a lot like real life."
+    s "La pesca se parece mucho a la vida real."
     
-    s "When you catch a bite, you will encounter some resistance."
+    s "Cuando pique, encontrará cierta resistencia."
     
     scene sakuyafishing1 with dissolve
     
-    s "Naturally, you should fight back against the tide."
+    s "Naturalmente, hay que luchar contra la marea."
     
-    s "Otherwise you'll lose what you worked so hard for."
+    s "De lo contrario, perderás lo que tanto te costó conseguir."
     
     scene sakuyafishing2 with dissolve
     
-    s "Of course, sometimes it's too hard for us to hang on, so we must let go and try again."
+    s "Por supuesto, a veces nos resulta demasiado difícil aguantar, así que debemos soltarlo e intentarlo de nuevo."
     
     scene sakuyafishing1 with dissolve
     
-    s "There is no shame in that."
+    s "No hay que avergonzarse de ello."
     
     scene sakuyafishing2 with dissolve
     
-    s "Think back to something you wanted to, or tried to achieve in life."
+    s "Piensa en algo que hayas querido o intentado conseguir en la vida."
     
-    s "Did you encounter some hardships along the way? I bet you did."
+    s "¿Te has encontrado con algunas dificultades en el camino? Seguro que sí."
     
     scene sakuyafishing1 with dissolve
     
-    s "Almost everything in life worth doing is going to be hard one way or another."
+    s "Casi todo lo que vale la pena hacer en la vida va a ser difícil de una manera u otra."
     
-    s "Do you fight back, or let it go?"
+    s "¿Te defiendes o lo dejas pasar?"
     
-    s "Do you try again, or try to catch something else?"
+    s "¿Lo intentas de nuevo o intentas coger otra cosa?"
     
     scene sakuyafishing2 with dissolve
     
-    s "There is no wrong descision, any one is fine."
+    s "no hay decisión equivocada, cualquiera está bien."
     
     scene sakuyafishing1 with dissolve
     
-    s "The only wrong descision is not making one at all."
+    s "La única decisión equivocada es no tomar ninguna."
     
     scene sakuyafishing2 with dissolve
     
@@ -1109,15 +1109,15 @@ label scene2choice1:
     
     stop music fadeout 1
     
-    s "Oh my! Looks like we got something already!"
+    s "¡Oh, Dios! ¡Parece que ya tenemos algo!."
     
     scene iydcl with Dissolve(1)
     
     play music catchfishsong
     
-    s "Hnnnnng, this thing is really tough, I'm not sure if I can do it!"
+    s "Hnnnnng, esto es realmente difícil, ¡no estoy seguro de poder hacerlo!"
     
-    show screen choice2("YOU CAN DO IT!!!", "I BELIEVE IN YOU!!", "scene2choice2", "scene2choice2", 66, 171, 42, 279)
+    show screen choice2("¡¡¡PUEDES HACERLO!!!", "¡¡CREO EN TI!!", "scene2choice2", "scene2choice2", 66, 171, 42, 279)
     
     pause
     pause
@@ -1125,27 +1125,27 @@ label scene2choice1:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "YOU CAN DO IT!!!":  # x="44"  y="114"
+        "¡¡¡PUEDES HACERLO!!!":  # x="44"  y="114"
             pass
             
-        "I BELIEVE IN YOU!!":  # x="28"  y="186"
+        "¡¡CREO EN TI!!":  # x="28"  y="186"
             pass
 
 label scene2choice2:
     
     hide screen choice2 with Dissolve(0.2)
 
-    s "Haha, thank you!"
+    s "Jaja, ¡gracias!"
     
-    s "But still, it's really really..."
+    s "Pero aún así, es realmente..."
     
     scene sakuyafrogwater with dissolve
     
     with hpunch
     
-    s "Ooooh! I can feel something comiiiiiing!!!"
+    s "¡Ooooh! ¡¡¡Puedo sentir que algo vieneiiiii!!!"
     
-    show screen choice2("KEEP GOING!! YOU'RE ALMOST THERE!!", "NO MATTER WHAT HAPPENS, I'M HERE FOR YOU!!!", "scene2choice3", "scene2choice3", 150, 287, 150, 437)
+    show screen choice2("¡¡SIGUE ADELANTE!! ¡¡YA CASI LLEGAS!!", "PASE LO QUE PASE, ¡ESTOY AQUÍ PARA TI!", "scene2choice3", "scene2choice3", 150, 287, 150, 437)
     
     pause
     pause
@@ -1153,10 +1153,10 @@ label scene2choice2:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "KEEP GOING!! YOU'RE ALMOST THERE!!":  # x="100"  y="191"
+        "¡¡SIGUE ADELANTE!! ¡¡YA CASI LLEGAS!!":  # x="100"  y="191"
             pass
             
-        "NO MATTER WHAT HAPPENS, I'M HERE FOR YOU!!!":  # x=""  y=""
+        "PASE LO QUE PASE, ¡ESTOY AQUÍ PARA TI!":  # x=""  y=""
             pass 
             
 label scene2choice3:
@@ -1173,7 +1173,7 @@ label scene2choice3:
     
     stop music fadeout 1
     
-    s "What is this thing?"
+    s "¿Qué es esta cosa?"
     
     scene sakuyafishing3 with Dissolve(1)
     
