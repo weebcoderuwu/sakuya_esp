@@ -141,7 +141,7 @@ label scene1choice3:
     
     s "Solo quiero que recuerdes esto."
     
-    scene sakuyabed1 with dissolvepp
+    scene sakuyabed1 with dissolve
     
     s "Lo que hiciste en el pasado, no importa ahora."
     
