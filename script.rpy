@@ -368,7 +368,7 @@ label scene1choice6:
     scene sakuyacooking3 with Dissolve(1)
     
     s "Digamos que te daré todo el tiempo que necesites."
-    #*para el tiempo*
+    
     scene sakuyacooking1 with dissolve
     
     s "¡Aquí vamos! Corta esta fruta!"
@@ -844,7 +844,7 @@ label scene1choice14:
     s "La verdad es que lo inventé todo."
     
     s "Iba a darte esa respuesta sin importar la opción que elijas."
-    ## esta scripteado es normal xdd
+    
     scene sakuyaquiz1 with Dissolve(1)
     
     s "Creo que para entender quién eres realmente, tendría que pasar más tiempo contigo y llegar a conocerte mejor."
@@ -1179,11 +1179,11 @@ label scene2choice3:
     
     play music fishing_song
     
-    s "Well, thanks for your words of encouragement."
+    s "Bueno, gracias por tus palabras de ánimo."
     
-    s "I'm not sure I could've done it without you."
+    s "No estoy seguro de haber podido hacerlo sin ti."
     
-    show screen choice2("You Totally Could Have!", "It Was Fun!", "scene2choice4a", "scene2choice4a", 818, 546, 890, 651)
+    show screen choice2("¡Podrías haberlo hecho!", "Fue divertido!", "scene2choice4a", "scene2choice4a", 818, 546, 890, 651)
     
     pause
     pause
@@ -1191,23 +1191,23 @@ label scene2choice3:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "You Totally Could Have!":  # x="545"  y="364"
+        "¡Podrías haberlo hecho!":  # x="545"  y="364"
             
             scene sakuyafishing4 with dissolve
             
-            s "Haha, that may be so."
+            s "Jaja, puede que sea así."
             
-            s "But, it was fun, wasn't it?"
+            s "Pero, fue divertido, ¿no?"
             
             scene sakuyafishing3 with dissolve
             
-            s "Doesn't it feel nice to cheer for someone you believe in, and vise versa?"
+            s "¿No es agradable animar a alguien en quien crees, y viceversa?"
             
-            s "I definetly think so."
+            s "Definitivamente creo que sí."
             
-        "It Was Fun!":  # x="593"  y="410"
+        "Fue divertido!":  # x="593"  y="410"
             
-            s "Indeed! I'm sure it was nice cheering and supporting for the person you support!"
+            s "De hecho... ¡Seguro que fue bonito animar y apoyar a la persona que apoyas!"
             
 label scene2choice4a:
     
@@ -1215,15 +1215,15 @@ label scene2choice4a:
     
     scene sakuyafishing4 with dissolve
             
-    s "Haha, that may be so."
+    s "Jaja, puede que sea así."
     
-    s "But, it was fun, wasn't it?"
+    s "Pero, fue divertido, ¿no?"
     
     scene sakuyafishing3 with dissolve
     
-    s "Doesn't it feel nice to cheer for someone you believe in, and vise versa?"
+    s "¿No es agradable animar a alguien en quien crees, y viceversa?"
     
-    s "I definetly think so."
+    s "Definitivamente creo que sí."
     
     jump scene2choice4
 
@@ -1231,19 +1231,19 @@ label scene2choice4b:
     
     hide screen choice2 with Dissolve(0.2)
     
-    s "Indeed! I'm sure it was nice cheering and supporting for the person you support!"
+    s "De hecho... ¡Seguro que fue bonito animar y apoyar a la persona que apoyas!"
             
 label scene2choice4:
     
     scene sakuyafishing4 with dissolve
     
-    s "It's always good to have even just one person supporting you."
+    s "Siempre es bueno tener aunque sea una sola persona que te apoye."
     
-    s "Now..."
+    s "Ahora..."
     
-    s "What do you think of eating frog legs?"
+    s "¿Qué opinas de comer ancas de rana?"
     
-    show screen choice2("I'm Not Sure About That.", "Sounds Delicious!", "scene2choice5a", "scene2choice5b", 746, 662, 764, 548)
+    show screen choice2("No estoy seguro de eso.", "¡Suena delicioso!", "scene2choice5a", "scene2choice5b", 746, 662, 764, 548)
     
     pause
     pause
@@ -1251,31 +1251,31 @@ label scene2choice4:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I'm Not Sure About That.":  # x="497"  y="441"
+        "No estoy seguro de eso.":  # x="497"  y="441"
             
-            s "Hmm, that's okay, sometimes, it's only natural to be unsure about these kinds of things."
-            
-            scene sakuyafishing3 with dissolve
-            
-            s "But I assure you, if I were to cook it, it would probably be one of the best things you have ever tasted in your entire life."
-            
-        "Sounds Delicious!":  # x="509"  y="365"
+            s "Hmm, está bien, a veces, es natural estar inseguro sobre este tipo de cosas."
             
             scene sakuyafishing3 with dissolve
             
-            s "Oh, you really think so?"
+            s "Pero te aseguro que si lo cocinara, probablemente sería una de las mejores cosas que hayas probado en toda tu vida."
             
-            s "I bet I won't dissapoint you!"
+        "¡Suena delicioso!":  # x="509"  y="365"
+            
+            scene sakuyafishing3 with dissolve
+            
+            s "Oh, ¿realmente lo crees?."
+            
+            s "Apuesto a que no te decepcionará."
             
 label scene2choice5a:
     
     hide screen choice2 with Dissolve(0.2)
     
-    s "Hmm, that's okay, sometimes, it's only natural to be unsure about these kinds of things."
+    s "Hmm, está bien, a veces, es natural estar inseguro sobre este tipo de cosas."
             
     scene sakuyafishing3 with dissolve
     
-    s "But I assure you, if I were to cook it, it would probably be one of the best things you have ever tasted in your entire life."
+    s "Pero te aseguro que si lo cocinara, probablemente sería una de las mejores cosas que hayas probado en toda tu vida."
     
     jump scene2choice5
     
@@ -1285,33 +1285,33 @@ label scene2choice5b:
     
     scene sakuyafishing3 with dissolve
             
-    s "Oh, you really think so?"
+    s "¿De verdad lo crees?"
     
-    s "I bet I won't dissapoint you!"
+    s "Apuesto a que no te decepcionará."
     
 label scene2choice5:
             
     scene sakuyafishing4 with dissolve
     
-    s "That said, this is a most unusual frog."
+    s "Dicho esto, esta es una rana muy inusual."
     
-    s "My mistress has an affinity for these kinds of intresting creatures."
+    s "Mi señora tiene afinidad por este tipo de criaturas interesantes."
     
-    s "Did you know she even had a pet chupacabra?"
+    s "Sabías que incluso tenía un chupacabras como mascota?"
     
-    s "I'll show it to her first and let her decide what she wants to do with it."
+    s "Se lo enseñaré primero y dejaré que ella decida lo que quiere hacer con él."
     
     scene sakuyafishing3 with dissolve
     
-    s "I wonder what we should call it..."
+    s "Me pregunto cómo deberíamos llamarlo..."
     
     scene sakuyafishing4 with dissolve
     
     s "Hmmm...."
     
-    s "I got it!"
+    s "¡Ya lo tengo!"
     
-    s "His name shall be..."
+    s "Su nombre deveria ser..."
     
     scene sakuyafishing3 with dissolve
     
@@ -1319,7 +1319,7 @@ label scene2choice5:
     
     scene sakuyafishing4 with dissolve
     
-    s "That's a nice name, don't you think?"
+    s "Es un bonito nombre, ¿no crees?"
     
     show screen choice6
     
@@ -1329,22 +1329,22 @@ label scene2choice5:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "It's A Great Name!":  # x="-3"  y="341"
+        "Es un gran nombre!":  # x="-3"  y="341"
             pass
             
-        "I Couldn't Have Come Up With A Better Name Myself":  # x="413"  y="368"
+        "No se me podría haber ocurrido un nombre mejor":  # x="413"  y="368"
             pass
             
-        "I Love The Name!":  # x="522"  y="240"
+        "¡Me encanta el nombre!":  # x="522"  y="240"
             pass
             
-        "The Mistress Will Love The Name!":  # x="485"  y="427"
+        "¡Al ama le encantará el nombre!":  # x="485"  y="427"
             pass
             
-        "It's The Perfect Name.":  # x="980"  y="426"
+        "Es el nombre perfecto.":  # x="980"  y="426"
             pass
             
-        "I Think I'll Name Our Kid Henry.":  # x="513"  y="3"
+        "Creo que llamaré a nuestro hijo Henry.":  # x="513"  y="3"
             pass
             
 label scene2choice6:
@@ -1365,27 +1365,27 @@ label scene2choice6:
     
     play music poolambeince 
     
-    s "I can't remember the last time I was in one of these..."
+    s "No puedo recordar la última vez que estuve en uno de estos..."
     
     scene sakuyapoolside4 with Dissolve(1)
     
-    s "Ah, it's been a while since I was down here."
+    s "Ah, hace tiempo que no vengo por aquí."
     
     scene sakuyapoolside3 with dissolve
     
-    s "You know, this place has got some history behind it."
+    s "Sabes, este lugar tiene algo de historia detrás."
     
-    s "Even though it wasn't that long ago, I feel oddly nostalgic about it."
+    s "Aunque no fue hace tanto tiempo, siento una extraña nostalgia por ello."
     
     scene sakuyapoolside4 with dissolve
     
-    s "I guess we can't help but remicense over the past sometimes."
+    s "Supongo que a veces no podemos evitar rememorar el pasado."
     
     scene sakuyapoolside3 with dissolve
     
-    s "What do you think? Would you like to know more about this area?"
+    s "¿Qué te parece? ¿te gustaría saber más sobre esta zona?"
     
-    show screen choice2("Sure!", "I'd Rather Just Dive In!", "scene2choice7a", "scene2choice7b", 1373, 434, 1382, 278)
+    show screen choice2("¡Claro!", "Prefiero sumergirme.", "scene2choice7a", "scene2choice7b", 1373, 434, 1382, 278)
     
     pause
     pause
@@ -1393,69 +1393,69 @@ label scene2choice6:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Sure!":  # x="915"  y="289"
+        "¡Claro!":  # x="915"  y="289"
             
             scene sakuyapoolside4 with Dissolve(1)
             
-            s "Great! I'm happy to explain it."
+            s "¡Genial! Estoy encantado de explicarlo"
             
-            s "It was a small while after the flower incident I was talking about earlier."
+            s "Fue poco después del incidente de las flores del que hablé antes."
             
-            s "My mistress was convinced to take part in a very outlandish plan."
+            s "Mi señora fue convencida de participar en un plan muy extravagante."
             
             scene sakuyapoolside3 with dissolve
             
-            s "The plan? None other than to take a stealth mission to the moon."
+            s "¿El plan? Nada menos que llevar una misión furtiva a la Luna."
             
             scene sakuyapoolside4 with dissolve
             
-            s "We've had our fair share of solving incidents and going on adventures."
+            s "Hemos tenido nuestra cuota de resolución de incidentes y de aventuras."
             
-            s "So naturally, we had no problem obliging, this was exciting for us as well."
+            s "Así que, naturalmente, no tuvimos ningún problema en complacerlos, esto también fue emocionante para nosotros."
             
             scene sakuyapoolside1 with Dissolve(1)
             
-            s "It was tricky though, we had to build some kind of rocket to the moon, we lacked references as to what should one function and look like."
+            s "Sin embargo, era complicado, teníamos que construir una especie de cohete a la luna, nos faltaban referencias de cómo debería funcionar y ser."
             
             scene sakuyapoolside4 with dissolve
             
-            s "Thankfully, I was able to procure the perfect references thanks to a magazine I obtained from a most curious shop."
+            s "Por suerte, pude conseguir las referencias perfectas gracias a una revista que conseguí en una tienda de lo más curiosa."
             
             scene sakuyapoolside3 with Dissolve(1)
             
-            s "You should've seen the look on lady Patchouli's face! She was ecstatic!"
+            s "¡Deberías haber visto la cara de la señora Patchouli! Estaba extasiada."
             
             scene sakuyapoolside2 with dissolve
             
-            s "Eventually, thanks to everyone's efforts, we finally make it to the moon."
+            s "Finalmente, gracias a los esfuerzos de todos, llegamos a la luna."
             
             scene sakuyapoolside3 with dissolve
             
-            s "The weather was perfect, the waves were beautiful and the cool breeze on you face felt heavenly."
+            s "El tiempo era perfecto, las olas eran hermosas y la brisa fresca en la cara se sentía celestial."
             
-            s "My mistress even took a trip around the moon!"
+            s "Así que, cuando llegó la hora de volver a casa, Patchouli ayudó a montar esta piscina cubierta para que pudiéramos llevarnos un poco de la luna cuando volviéramos a casa."
             
             scene sakuyapoolside4 with dissolve
             
-            s "So, when it was time to go home, Patchouli helped set up this indoor pool so we could take a bit of the moon with us when we got back home."
+            s "Así que, cuando llegó la hora de volver a casa, Patchouli ayudó a montar esta piscina cubierta para que pudiéramos llevarnos un poco de la luna cuando volviéramos a casa."
             
-            s "But you know..."
+            s "Pero ya sabes..."
             
             scene sakuyapoolside3 with Dissolve(1)
             
-            s "We made this indoor pool after the fight on the moon, but I never got a chance to actually swim in it!"
+            s "Hicimos esta piscina cubierta después de la lucha en la luna, pero nunca tuve la oportunidad de nadar en ella."
             
             scene sakuyapoolside4 with dissolve
             
-            s "So... enough talk."
+            s "Así que... basta de hablar."
             
-        "I'd Rather Just Dive In!":  # x="921"  y="185"
+        "Prefiero sumergirme.":  # x="921"  y="185"
             
-            s "Fair enough!"
+            s "¡Estoy de acuerdo!"
             
             scene sakuyapoolside4 with dissolve
             
-            s "You can ask me anytime later on anyways."
+            s "De todos modos, puedes preguntarme cuando quieras más adelante."
             
 label scene2choice7a:
             
@@ -1463,57 +1463,57 @@ label scene2choice7a:
     
     scene sakuyapoolside4 with Dissolve(1)
             
-    s "Great! I'm happy to explain it."
+    s "¡Genial! Estoy encantado de explicarlo."
     
-    s "It was a small while after the flower incident I was talking about earlier."
+    s "Fue poco después del incidente de las flores del que hablé antes."
     
-    s "My mistress was convinced to take part in a very outlandish plan."
+    s "Mi señora fue convencida de participar en un plan muy extravagante."
     
     scene sakuyapoolside3 with dissolve
     
-    s "The plan? None other than to take a stealth mission to the moon."
+    s "¿El plan? Nada menos que llevar una misión furtiva a la Luna."
     
     scene sakuyapoolside4 with dissolve
     
-    s "We've had our fair share of solving incidents and going on adventures."
+    s "Hemos tenido nuestra cuota de resolución de incidentes y de aventuras."
     
-    s "So naturally, we had no problem obliging, this was exciting for us as well."
+    s "Así que, naturalmente, no tuvimos ningún problema en complacerlos, esto también fue emocionante para nosotros."
     
     scene sakuyapoolside1 with Dissolve(1)
     
-    s "It was tricky though, we had to build some kind of rocket to the moon, we lacked references as to what should one function and look like."
+    s "Sin embargo, era complicado, teníamos que construir una especie de cohete a la luna, nos faltaban referencias de cómo debería funcionar y ser."
     
     scene sakuyapoolside4 with dissolve
     
-    s "Thankfully, I was able to procure the perfect references thanks to a magazine I obtained from a most curious shop."
+    s "Por suerte, pude conseguir las referencias perfectas gracias a una revista que conseguí en una tienda de lo más curiosa."
     
     scene sakuyapoolside3 with Dissolve(1)
     
-    s "You should've seen the look on lady Patchouli's face! She was ecstatic!"
+    s "¡Deberías haber visto la cara de la señora Patchouli! Estaba extasiada."
     
     scene sakuyapoolside2 with dissolve
     
-    s "Eventually, thanks to everyone's efforts, we finally make it to the moon."
+    s "Finalmente, gracias a los esfuerzos de todos, llegamos a la luna."
     
     scene sakuyapoolside3 with dissolve
     
-    s "The weather was perfect, the waves were beautiful and the cool breeze on you face felt heavenly."
+    s "El tiempo era perfecto, las olas eran hermosas y la brisa fresca en la cara se sentía celestial."
     
-    s "My mistress even took a trip around the moon!"
+    s "¡Mi señora incluso hizo un viaje alrededor de la luna!"
     
     scene sakuyapoolside4 with dissolve
     
-    s "So, when it was time to go home, Patchouli helped set up this indoor pool so we could take a bit of the moon with us when we got back home."
+    s "Así que, cuando llegó la hora de volver a casa, Patchouli ayudó a montar esta piscina cubierta para que pudiéramos llevarnos un poco de la luna cuando volviéramos a casa."
     
-    s "But you know..."
+    s "Pero usted sabe..."
     
     scene sakuyapoolside3 with Dissolve(1)
     
-    s "We made this indoor pool after the fight on the moon, but I never got a chance to actually swim in it!"
+    s "Hicimos esta piscina cubierta después de la lucha en la luna, pero nunca tuve la oportunidad de nadar en ella."
     
     scene sakuyapoolside4 with dissolve
     
-    s "So... enough talk."
+    s "Así que... basta de hablar."
     
     jump scene2choice7
     
@@ -1521,25 +1521,25 @@ label scene2choice7b:
             
     hide screen choice2 with Dissolve(0.2)
     
-    s "Fair enough!"
+    s "Estoy de acuerdo!"
             
     scene sakuyapoolside4 with dissolve
     
-    s "You can ask me anytime later on anyways."
+    s "De todos modos, puedes preguntarme cuando quieras más adelante."
     
 label scene2choice7:
     
     scene sakuyapoolside3 with Dissolve(1)
     
-    s "Let's hop right in!"
+    s "Vamos a entrar de lleno."
     
     scene sakuyapool1 with dissolve
     
-    s "So, do you enjoy swimming?"
+    s "¿Le gusta nadar?"
     
-    s "I know the pool might be a bit small, but..."
+    s "Sé que la piscina puede ser un poco pequeña, pero..."
     
-    show screen choice2("It's Fun!", "Only Because You're Here.", "scene2choice8", "scene2choice8", 818, 488, 696, 393)
+    show screen choice2("Es divertido", "Solo por que estas aqui", "scene2choice8", "scene2choice8", 818, 488, 696, 393)
     
     pause
     pause
@@ -1547,9 +1547,9 @@ label scene2choice7:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu: 
-        "It's Fun!":  # x="545"  y="325"
+        "Es divertido":  # x="545"  y="325"
             pass
-        "Only Because You're Here.":  # x="464"  y="262"
+        "Solo por que estas aqui":  # x="464"  y="262"
             pass
             
 label scene2choice8:
@@ -1558,35 +1558,35 @@ label scene2choice8:
     
     scene sakuyapool4 with Dissolve(1)
     
-    s "Hah! Glad to hear it."
+    s "¡Ja! Me alegro de oírlo."
     
     scene sakuyapool1 with dissolve
     
-    s "Well, either way..."
+    s "Bueno, de cualquier manera..."
     
     scene sakuyapool3 with Dissolve(1)
     
-    s "It's important to try new things, and to discover things about yourself through these activities."
+    s "Es importante probar cosas nuevas y descubrir cosas sobre uno mismo a través de estas actividades."
     
     scene sakuyapool4 with Dissolve(1)
     
     s "For example, let's take what we just did right now. Swimming."
     
-    s "Did you enjoy it? Was it fun? Were you good at it? What aspects of it did you like or dislike?"
+    s "¿Lo disfrutaste? ¿Fue divertido? ¿Se te dio bien? ¿Qué aspectos te gustaron o te disgustaron?"
     
     scene sakuyapool1 with dissolve
     
-    s "Obviously, you don't have to write an essay every time you try something new."
+    s "Evidentemente, no tienes que escribir un ensayo cada vez que pruebes algo nuevo."
     
-    s "But simply just trying something new, especially if it's a bit out of your comfort zone, and doing some simple reflecting on such matters can be highly beneficial to yourself in the long run."
+    s "Pero el mero hecho de probar algo nuevo, sobre todo si se sale de la zona de confort, y hacer una simple reflexión sobre estas cuestiones puede ser muy beneficioso para uno mismo a largo plazo."
     
     scene sakuyapool4 with Dissolve(1)
     
-    s "You may find some new passions or hobbies which can ultimately be a source of happiness for you."
+    s "Es posible que encuentre nuevas pasiones o aficiones que, en última instancia, pueden ser una fuente de felicidad para usted."
     
     #pause 1
     
-    s "As you may know, some people speculate I may have been a great vampire hunter in a past life, and I don't think that's so bad!"
+    s "Como ya sabrás, algunas personas especulan con la posibilidad de que haya sido un gran cazador de vampiros en una vida pasada, ¡y no creo que eso sea tan malo!"
     
     scene sakuyapool1 with dissolve
     
@@ -1596,7 +1596,7 @@ label scene2choice8:
     
     s "..."
     
-    s "Come closer"
+    s "Acércate"
     
     # Camera zoom 2x for 1 second
     scene sakuyapool3:
@@ -1607,7 +1607,7 @@ label scene2choice8:
     scene sakuyapool4 with Dissolve(1):
         zoom 2.0 align(0.5, 0.5)
     
-    s "Kiss me."
+    s "Bésame."
     
     # Reset camera back for 1 second
     scene sakuyapool4:
@@ -1617,25 +1617,25 @@ label scene2choice8:
     
     scene sakuyapool3 with dissolve
     
-    s "Oh, but wait."
+    s "Oh, pero espera."
     
     stop music fadeout 2
     
-    s "Speaking of swimming.."
+    s "Hablando de natación.."
     
     scene sakuyapool6 with dissolve
     
     play music drownsong
     
-    s "Did you know that, apparently, drowning is one of the worst ways to die?"
+    s "¿Sabías que, aparentemente, ahogarse es una de las peores formas de morir?"
     
     scene sakuyapool5 with dissolve
     
-    s "I'm not so sure myself, I'd say there's a lot worse ways to die."
+    s "Yo no estoy tan seguro, diría que hay formas mucho peores de morir."
     
-    s "Looks like you're gonna have to find out for me."
+    s "Parece que vas a tener que averiguarlo por mí."
     
-    show screen choice2("Don't Make Me Suffer", "I Don't Want To Die Anymore!", "scene2choice9a", "scene2choice9b", 713, 538, 675, 422)
+    show screen choice2("No me hagas sufrir", "¡Ya no quiero morir!", "scene2choice9a", "scene2choice9b", 713, 538, 675, 422)
     
     pause
     pause
@@ -1643,21 +1643,21 @@ label scene2choice8:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Don't Make Me Suffer":  # x="475"  y="322"
+        "No me hagas sufrir":  # x="475"  y="322"
             
-            s "Well, I'm glad I was able to help you out with that, but.."
+            s "Bueno, me alegro de haber podido ayudarte con eso, pero.."
             
-        "I Don't Want To Die Anymore!":  # x="450"  y="281"
+        "¡Ya no quiero morir!":  # x="450"  y="281"
             
-            s "Sorry, but, like I said, I'd imagine this is going to be quite agonizing on your end."
+            s "Lo siento, pero, como he dicho, me imagino que esto va a ser bastante agonizante por tu parte."
             
-            s "That's okay though..."
+            s "Sin embargo, está bien...."
     
 label scene2choice9a:
             
     hide screen choice2 with Dissolve(0.2)
     
-    s "Well, I'm glad I was able to help you out with that, but.."
+    s "Bueno, me alegro de haber podido ayudarte con eso, pero.."
     
     jump scene2choice9
     
@@ -1665,23 +1665,23 @@ label scene2choice9b:
             
     hide screen choice2 with Dissolve(0.2)
     
-    s "Sorry, but, like I said, I'd imagine this is going to be quite agonizing on your end."
+    s "Lo siento, pero, como he dicho, me imagino que esto va a ser bastante agonizante por tu parte."
             
-    s "That's okay though..."
+    s "Sin embargo, está bien...."
     
 label scene2choice9:
             
-    s "The way Ya veo it, you were a goner anyways."
+    s "Tal y como yo lo veo, estabas perdido de todos modos.."
     
     scene sakuyapool8 with Dissolve(1)
     
-    s "Now that I've had my fun with you, I might as well turn you into a delectable meal for the mistress."
+    s "Ahora que me he divertido contigo, podría convertirte en una deliciosa comida para la señora.."
     
-    s "It's been a while since she and the sister have had meat."
+    s "Hace tiempo que ella y la hermana no comen carne."
     
     scene sakuyapool7 with dissolve
     
-    s "Die."
+    s "Muere."
     
     scene black with Dissolve(1)
     
@@ -1711,13 +1711,13 @@ label scene3:  #################################################################
     
     play music teasong
     
-    s "Well, I do apologize if I scared you like that."
+    s "Bueno, me disculpo si te he asustado así."
     
     scene sakuyatea4 with dissolve
     
-    s "I just wanted to have a little bit of fun!"
+    s "Sólo quería divertirme un poco!."
     
-    show screen choice2("You Have A Weird Idea Of Fun!", "It's No Problem!", "scene3choice1a", "scene3choice1b", 1233, 164, 150, 155)
+    show screen choice2("Tienes una idea rara de diversion", "No hay problema.", "scene3choice1a", "scene3choice1b", 1233, 164, 150, 155)
     
     pause
     pause
@@ -1725,29 +1725,29 @@ label scene3:  #################################################################
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "You Have A Weird Idea Of Fun!":  # x="822"  y="109"
+        "Tienes una idea rara de diversion":  # x="822"  y="109"
             
             scene sakuyatea5 with dissolve
             
-            s "Haha, well, that's just one thing about me!"
+            s "Jaja, bueno, ¡eso es sólo una cosa de mí!"
             
             scene sakuyatea6 with dissolve
             
-            s "I hope there's a million other things you do like about me otherwise."
+            s "Espero que haya un millón de cosas más que te gusten de mí por lo demás."
             
-        "It's No Problem!":  # x="100"  y="103"
+        "No hay problema.":  # x="100"  y="103"
             
             scene sakuyatea3 with dissolve
             
-            s "Oh really!?"
+            s "¿Ah, sí?"
             
             scene sakuyatea4 with dissolve
             
-            s "That's so sweet!"
+            s "¡Esto es tan dulce!"
             
             scene sakuyatea2 with dissolve
             
-            s "You're so cool."
+            s "Eres genial".
     
 label scene3choice1a:
             
@@ -1755,11 +1755,11 @@ label scene3choice1a:
     
     scene sakuyatea5 with dissolve
             
-    s "Haha, well, that's just one thing about me!"
+    s "Jaja, bueno, ¡eso es sólo una cosa de mí!"
     
     scene sakuyatea6 with dissolve
     
-    s "I hope there's a million other things you do like about me otherwise."
+    s "Espero que haya un millón de cosas más que te gusten de mí por lo demás."
     
     jump scene3choice1
     
@@ -1769,60 +1769,60 @@ label scene3choice1b:
     
     scene sakuyatea3 with dissolve
             
-    s "Oh really!?"
+    s "¿Ah, sí?"
     
     scene sakuyatea4 with dissolve
     
-    s "That's so sweet!"
+    s "¡Esto es muy dulce!"
     
     scene sakuyatea2 with dissolve
     
-    s "You're so cool."
+    s "Eres genial."
     
 label scene3choice1:
     
     scene smstea with dissolve
     
-    s "Still though..."
+    s "Pero aún así..."
     
     scene sakuyasad2 with dissolve
     
-    s "I would like to make it up to you for your troubles, but..."
+    s "Me gustaría compensarte por tus problemas, pero..."
     
     scene sakuyasad with dissolve
     
-    s "Today is my last day here, I have to go now."
+    s "Hoy es mi último día aquí, tengo que irme."
     
-    s "Some trouble maker who supposedly came from heaven is causing quite a ruckus in gensokyo."
+    s "Un alborotador que supuestamente vino del cielo está causando un gran alboroto en Gensokyo."
     
     scene sakuyasad2 with dissolve
     
-    s "I want to go investigate it, I'm sure you understand."
+    s "Quiero ir a investigarlo, estoy seguro de que lo entiendes."
     
-    s "My mistress will be here though, she's very interested in meeting you for your last few days here."
+    s "Sin embargo, mi señora estará aquí, está muy interesada en conocerte para tus últimos días aquí."
     
     scene sakuyatea3 with dissolve
     
     #Sakuya'
-    s "I hope she behaves herself around you! She can be quite a handful!"
+    s "Espero que se comporte con usted. Puede ser un poco difícil de manejar."
     
     scene sakuyatea2 with Dissolve(1)
     
     stop music fadeout 1
 
-    s "But..."
+    s "Pero..."
     
     scene sakuyacheek1 with dissolve
     
     play music finalsong
     
-    s "Thank you so much for being here with me."
+    s "Muchas gracias por estar aquí conmigo."
     
-    s "I had a really good time."
+    s "Me lo he pasado muy bien."
     
-    s "And I hope to see you again sometime."p
+    s "Y espero volver a verte alguna vez."
     
-    s "I know it was hard for you before you came here..."
+    s "Sé que fue difícil para ti antes de venir aquí..."
     
     s "Así que espero que estos últimos días conmigo te hayan ayudado, aunque sea un poco."
     
