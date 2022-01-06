@@ -334,8 +334,7 @@ label scene1choice6a:
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s 
-    "Mis cuchillos siempre están afilados como una navaja, por lo que harán la mayor parte del trabajo por ti."
+    s "Mis cuchillos siempre están afilados como una navaja, por lo que harán la mayor parte del trabajo por ti."
     
     jump scene1choice6
     
@@ -1747,7 +1746,7 @@ label scene3:  #################################################################
             
             scene sakuyatea2 with dissolve
             
-            s "Eres genial".
+            s "Eres genial."
     
 label scene3choice1a:
             
