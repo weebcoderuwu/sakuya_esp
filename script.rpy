@@ -67,7 +67,7 @@ label scene1choice1:
             
     scene sakuyabed1 with Dissolve(1)
     
-    s "Well, I never meant to intrude."
+    s "Bueno, nunca quise entrometerme."
     
     s "Creeme , Te habria dejado solo y nunca habria interferido."
     
@@ -75,19 +75,19 @@ label scene1choice1:
     
     s "Pero..."
     
-    s "Someone who's been watching you for a small bit sensed that, deep down, you didn't actually want it to end."
+    s "Alguien que te ha estado observando un poco sintió que, en el fondo, en realidad no querías que terminara.."
     
     pause 0.5
     ## asd
-    s "It was faint, but your soul was crying for help, begging for another chance at life."
+    s "Era débil, pero tu alma estaba pidiendo ayuda, rogando por otra oportunidad en la vida."
     
     scene sakuyabed5 with Dissolve(1)
     
-    s "So I naturally volunteered to help!"
+    s "¡Así que, naturalmente, me ofrecí como voluntaria para ayudar!"
     
     scene sakuyabed6 with Dissolve(1)
     
-    s "Regardless, I'm here for you."
+    s "Independientemente, estoy aquí para ti."
     
     show screen choice1("Que quieres de mi?", "scene1choice2", 1091, 152)
     
@@ -156,8 +156,8 @@ label scene1choice3:
     s "La unica cosa que importa ahora mismo, Es cerrar tus ojos, y dormir lo suficiente."
     
     scene sakuyabed3 with dissolve
-    ## asd
-    s "That's it, nothing else matters except for you sleeping."
+    
+    s "Eso es todo, nada más importa excepto que tú duermas."
     
     scene sakuyabed6 with dissolve
     
@@ -173,7 +173,7 @@ label scene1choice3:
     
     s "Uno no deveria \"intentar\" dormir, deveria ser tan natural como caminar."
     
-    s "Once you let go and stop thinking, I'm sure you'll find that it's much easier to get some shut eye."
+    s "Una vez que te dejes ir y dejes de pensar, estoy segura de que descubrirás que es mucho más fácil dormir un poco.."
     
     scene sakuyabed3 with dissolve
     
@@ -247,21 +247,21 @@ label scene1choice4b:
     
     scene sakuyacooking1 with Dissolve(1)
             
-    s "Well I bet you did! You looked like you were on the verge of death."
+    s "Bueno, apuesto a que lo hiciste! Parecías estar al borde de la muerte."
     
     scene sakuyacooking4 with Dissolve(1)
     
-    s "Well, that's probably not an exaggeration anyways."
+    s "Bueno, probablemente eso no sea una exageración de todos modos.."
     
 label scene1choice4:
     
     scene sakuyacooking3 with dissolve
     
-    s "At any rate, it's good that it happened."
+    s "De todos modos, es bueno que haya sucedido."
     
-    s "This task I'm gonna have you do requires you to stay sharp!"
+    s "¡Esta tarea que voy a hacer que hagas requiere que te mantengas alerta!"
     
-    show screen choice1("What Are We Gonna Do?", "scene1choice5", 1353, 189)
+    show screen choice1("Que vamos a hacer?", "scene1choice5", 1353, 189)
     
     pause
     pause
@@ -463,37 +463,37 @@ label scene1apple: # apple_cut
     
     s "Es posible que tengas algunos problemas en ti vida."
     
-    s "Este tipo de cosas que van pasando por tu mente, no matter how hard you try."
+    s "Este tipo de cosas que van pasando por tu mente, No importa que tan duro lo intentes."
     
-    s "\"What If\" thoughts, regretting past choices, anxious about the future..."
+    s "Pensamientos de \"qué pasaría si\", arrepentimiento de elecciones pasadas, ansiedad por el futuro..."
     
     scene sakuyacooking4 with dissolve
     
-    s "It's quite annoying when that happens, isn't it?"
+    s "Es bastante molesto cuando eso sucede, ¿no?"
     
-    s "However..."
+    s "Sin embargo..."
     
     scene sakuyacooking3 with dissolve
     
-    s "I'm willing to bet that you weren't thinking about such things while you were busy cutting up that fruit with me, were you?"
+    s "Estoy dispuesto a apostar que no estabas pensando en esas cosas mientras estabas ocupado cortando esa fruta conmigo, ¿verdad?"
     
     scene sakuyacooking2 with dissolve
     
-    s "It's important to keep your mind occupied with healthy acitvities such as these."
+    s "Es importante mantener la mente ocupada con actividades saludables como estas."
     
     scene sakuyacooking1 with dissolve
     
-    s "It works wonders towards fighting those nasty thoughts, and in general is great for your well being!"
+    s "¡Funciona de maravilla para combatir esos pensamientos desagradables y, en general, es excelente para tu bienestar!"
     
     scene sakuyacooking2 with dissolve
     
-    s "I hope this was of some use to you."
+    s "Espero que esto te haya servido de algo.."
     
     scene sakuyacooking1 with dissolve
     
-    s "That's all I have to say for now!"
+    s "¡Eso es todo lo que tengo que decir por ahora!"
     
-    s "See you tomorrow! Take care!"
+    s "¡Hasta mañana! ¡Cuídate!"
     
     stop music fadeout 1
     
@@ -507,15 +507,15 @@ label scene1apple: # apple_cut
     
     play music teasong
     
-    s "Welcome back!"
+    s "¡Bienvenido de nuevo!"
     
-    s "I was able to finish my chores for the day earlier than usual, so I decided to call you here!"
+    s "Pude terminar mis tareas del día antes de lo habitual, ¡así que decidí llamarte aquí!"
     
     s "So, it's your third day here so far."
     
-    s "I hope you've taken a liking to this humble mansion."
+    s "Espero que te haya gustado esta humilde mansión.."
     
-    show screen choice1("Is This Your Room?", "scene1choice7", 320, 197)
+    show screen choice1("¿Esta es tu habitación?", "scene1choice7", 320, 197)
     
     pause
     pause
@@ -523,38 +523,38 @@ label scene1apple: # apple_cut
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Is This Your Room?":  # x="213"  y="131"
+        "¿Esta es tu habitación?":  # x="213"  y="131"
             pass
 
 label scene1choice7:
     
     hide screen choice1 with Dissolve(0.2)
 
-    s "Why yes!"
+    s "¡Porque?, si!"
     
-    s "This is indeed my room."
+    s "Esta es de hecho mi habitación."
     
-    s "Nothing's better than coming here with a nice cup of tea after a long day of  hard work!"
+    s "¡Nada es mejor que venir aquí con una buena taza de té después de un largo día de arduo trabajo!"
     
     scene sakuyatea2 with Dissolve(1)
     
-    s "But you must be wondering why I brought you here."
+    s "Pero debes estar preguntándote por qué te traje aquí."
     
-    s "I need to perform a little experiment with you."
+    s "Necesito hacer un pequeño experimento contigo."
     
-    s "You're quite a peculiar human, everyone around the mansion, even the mistress is curious about you."
+    s "Eres un ser humano bastante peculiar, todos en la mansión, incluso la señora, sienten curiosidad por ti."
     
     scene sakuyatea6 with Dissolve(1)
     
-    s "Therefore, as the Cheif Head Maid of this mansion, it's my duty to satisfy these needs."
+    s "Por lo tanto, como Head Maid de esta mansion, es mi deber satisfacer estas necesidades."
     
     scene sakuyatea4 with Dissolve(1)
     
-    s "I hope you won't mind though!"
+    s "¡Espero que no te importe!"
     
-    s "I'd never do anything that makes you feel uncomfortable!"
+    s "¡Nunca haría nada que te haga sentir incómodo!"
     
-    show screen choice2("Anything For You", "I'm A Little Nervous.", "scene1choice8a", "scene1choice8b", 150, 171, 1364, 189)
+    show screen choice2("Cualquier cosa por ti", "Estoy un poco nervioso.", "scene1choice8a", "scene1choice8b", 150, 171, 1364, 189)
     
     pause
     pause
@@ -562,33 +562,33 @@ label scene1choice7:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "Anything For You":  # x="100"  y="114"
+        "Cualquier cosa por ti":  # x="100"  y="114"
             
             scene sakuyatea6 with Dissolve(1)
             
-            s "Why, thank you!"
+            s "Por que, ¡gracias!"
             
-            s "I'm glad you have your trust placed in me."
+            s "Me alegro de que hayas depositado tu confianza en mi."
             
-        "I'm A Little Nervous.":  # x="909"  y="126"  - In script, ignores the following dialogues
+        "Estoy un poco nervioso.":  # x="909"  y="126"  - In script, ignores the following dialogues
             
             scene sakuyatea3 with Dissolve(1)
             
-            s "Is that so?"
+            s "¿Es eso así?"
             
             scene sakuyatea2 with Dissolve(1)
             
-            s "Well, you can trust me on this one, you'll be completely safe."
+            s "Bueno, puedes confiar en mí en este, estarás completamente seguro."
     
 label scene1choice8a:
     
     hide screen choice2 with Dissolve(0.2)
     
     scene sakuyatea6 with Dissolve(1)
-            
-    s "Why, thank you!"
+              
+    s "Por que, ¡gracias!"
     
-    s "I'm glad you have your trust placed in me."
+    s "Me alegro de que hayas depositado tu confianza en mí."
     
     jump scene1choice8
     
@@ -598,55 +598,55 @@ label scene1choice8b:
     
     scene sakuyatea3 with Dissolve(1)
             
-    s "Is that so?"
+    s "¿Es eso así?"
     
     scene sakuyatea2 with Dissolve(1)
     
-    s "Well, you can trust me on this one, you'll be completely safe."
+    s "Bueno, puedes confiar en mí en este, estarás completamente seguro."
     
 label scene1choice8:
     
     scene sakuyatea2 with Dissolve(1)
     
-    s "Now, come closer."
+    s "Ahora, acércate."
     
     stop music fadeout 2
     
-    s "I want you to lay down on my lap."
+    s "Quiero que te acuestes en mi regazo."
     
     scene sakuyaquiz1 with Dissolve(1)
     
     play music laying_down_song_re
     
-    s "I hope there's enough cushioning to your liking."
+    s "Espero que haya suficiente amortiguación a tu gusto.."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "It's simple"
+    s "Es simple"
     
-    s "Just answer these questions for me, and I'll give you an extensive profile that matches who you are."
+    s "Solo contesta estas preguntas por mí y te daré un perfil extenso que coincide con quien eres."
     
-    s "It may help you understand yourself better."
+    s "Puede ayudarte a entenderte mejor a ti mismo."
     
     scene sakuyaquiz4 with Dissolve(1)
     
-    s "Just be as honest as you possibly can."
+    s "Solo sé tan honesto como puedas."
     
     scene sakuyaquiz5 with Dissolve(1)
     
-    s "There is no wrong answer!"
+    s "No hay respuesta incorrecta!"
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "Now, let's begin."
+    s "Ahora, comencemos."
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "Question number 1:"
+    s "pregunta numero 1:"
     
-    s "Why do you hate living?"  # player: *Big shock* O.O
+    s "por que odias vivir?"  # player: *Big shock* O.O
     
-    show screen choice3("It Hurts To Be Alive", "I Can't Cope With My Past", "My Future Is Extremly Bleak", "scene1choice9", "scene1choice9", "scene1choice9", 1233, 125, 1230, 249, 1250, 362)
+    show screen choice3("Duele estar vivo", "No puedo hacer frente a mi pasado", "Mi futuro es extremadamente sombrío", "scene1choice9", "scene1choice9", "scene1choice9", 1233, 125, 1230, 249, 1250, 362)
     
     pause
     pause
@@ -654,13 +654,13 @@ label scene1choice8:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "It Hurts To Be Alive":  # x="822"  y="83"
+        "Duele estar vivo":  # x="822"  y="83"
             pass
             
-        "I Can't Cope With My Past":  # x="820"  y="166"
+        "No puedo hacer frente a mi pasado":  # x="820"  y="166"
             pass
             
-        "My Future Is Extremly Bleak":  # x="833"  y="241"
+        "Mi futuro es extremadamente sombrío":  # x="833"  y="241"
             pass
     
 label scene1choice9:
@@ -669,15 +669,15 @@ label scene1choice9:
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "I see..."
+    s "Ya veo...."
     
-    s "Next question:"
+    s "Siguiente pregunta:"
     
     scene sakuyaquiz2 with Dissolve(1)
     
-    s "What do you think about the most?"
+    s "¿Qué es lo que más piensas?"
     
-    show screen choice3("I Keep Thinking About Past Mistakes.", "I Keep Thinking About The Uncertain Future", "I Don't Think At All.", "scene1choice10", "scene1choice10", "scene1choice10", 1133, 125, 1130, 249, 1150, 362)
+    show screen choice3("Sigo pensando en errores pasados.", "Sigo pensando en el futuro incierto", "No pienso en absoluto.", "scene1choice10", "scene1choice10", "scene1choice10", 1133, 125, 1130, 249, 1150, 362)
     
     pause
     pause
@@ -685,13 +685,13 @@ label scene1choice9:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I Keep Thinking About Past Mistakes.":  # x="822"  y="83"
+        "Sigo pensando en errores pasados.":  # x="822"  y="83"
             pass
             
-        "I Keep Thinking About The Uncertain Future":  # x="820"  y="166"
+        "Sigo pensando en el futuro incierto":  # x="820"  y="166"
             pass
         
-        "I Don't Think At All.":  # x="833"  y="241"
+        "No pienso en absoluto..":  # x="833"  y="241"
             pass
     
 label scene1choice10:
@@ -700,7 +700,7 @@ label scene1choice10:
     
     scene sakuyaquiz1 with Dissolve(1)
     
-    s "I see..."
+    s "Ya veo..."
     
     s "Just a few more questions."
     
@@ -1671,7 +1671,7 @@ label scene2choice9b:
     
 label scene2choice9:
             
-    s "The way I see it, you were a goner anyways."
+    s "The way Ya veo it, you were a goner anyways."
     
     scene sakuyapool8 with Dissolve(1)
     
@@ -1820,13 +1820,13 @@ label scene3choice1:
     
     s "I had a really good time."
     
-    s "And I hope to see you again sometime."
+    s "And I hope to see you again sometime."p
     
     s "I know it was hard for you before you came here..."
     
-    s "So I hope that these past few days with me have helped you, even for just a bit."
+    s "Así que espero que estos últimos días conmigo te hayan ayudado, aunque sea un poco."
     
-    show screen choice2("I'll Miss You", "Thank You For Everything.", "scene3choice2a", "scene3choice2b", 107, 189, 1424, 210)
+    show screen choice2("Te extrañaré", "Gracias por todo.", "scene3choice2a", "scene3choice2b", 107, 189, 1424, 210)
     
     pause
     pause
@@ -1834,27 +1834,27 @@ label scene3choice1:
     $ renpy.rollback(force=False, checkpoints=1, defer=False, greedy=True, label=None, abnormal=True)
     
     menu:
-        "I'll Miss You":  # x="71"  y="126"
+        "Te extrañaré":  # x="71"  y="126"
             
-            s "I'll miss you too..."
+            s "Yo también te extrañaré..."
             
-            s "Let's promise to see each other again, alright?"
+            s "Prometamos vernos de nuevo, está bien?"
             
-        "Thank You For Everything.":  # x="949"  y="140"
+        "Gracias por todo.":  # x="949"  y="140"
     
-            s "No, thank you for everything."
+            s "No, Gracias por todo."
             
-            s "I'm glad to have helped."
+            s "Estoy contenta de haber ayudado."
             
-            s "I needed this too."
+            s "Yo también necesitaba esto."
             
 label scene3choice2a:
             
     hide screen choice2 with Dissolve(0.2)
     
-    s "I'll miss you too..."
+    s "No, Gracias por todo..."
             
-    s "Let's promise to see each other again, alright?"
+    s "Prometamos vernos de nuevo, está bien?"
     
     jump scene3choice2
 
@@ -1862,15 +1862,15 @@ label scene3choice2b:
             
     hide screen choice2 with Dissolve(0.2)
     
-    s "No, thank you for everything."
+    s "No, Gracias por todo."
             
-    s "I'm glad to have helped."
+    s "Estoy contenta de haber ayudado."
     
-    s "I needed this too."
+    s "Yo también necesitaba esto."
 
 label scene3choice2:
             
-    s "Take care of yourself for me, okay?"
+    s "Cuídate por mí, ¿de acuerdo?"
     window hide Dissolve(0.2)
     $ quick_menu = False
     
